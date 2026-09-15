@@ -1,0 +1,219 @@
+{
+    "id": 4547267,
+    "tipoLotto": "IMMOBILI",
+    "categoriaLotto": "IMMOBILE_RESIDENZIALE",
+    "categoriaBene": [
+        "ABITAZIONE_TIPO_ECO"
+    ],
+    "indirizzo": {
+        "via": "Via Amedeo Peyron, 44, 10143 Torino TO, Italia",
+        "cap": "1272",
+        "citta": "Torino",
+        "provincia": "Torino",
+        "coordinate": {
+            "latitudine": 45.079832,
+            "longitudine": 7.659367
+        },
+        "descRegione": "Piemonte",
+        "descNazione": "Italia"
+    },
+    "numeroLotto": "LOTTO UNICO",
+    "procedura": {
+        "idProcedura": 1003415,
+        "flgVenditaGiudiziariaSN": true,
+        "numeAnnoRg": 2025,
+        "numeRg": "559",
+        "codTipoRito": "EICA",
+        "descTipoRito": "Espropriazione Immobiliare (cartabia)",
+        "codUfficio": "0012720095",
+        "descUfficio": "Tribunale di TORINO",
+        "codTipoRegistro": "ESECUZIONI_CIVILI_IMMOBILIARI",
+        "descTipoRegistro": "Esecuzioni Civili Immobiliari",
+        "generaProgressivo": false
+    },
+    "prezzoBaseAsta": 214000.0,
+    "dataVendita": "2026-05-19",
+    "dataOraVendita": "2026-05-19T14:00",
+    "dataPubblicazione": "2026-03-19",
+    "offertaMinima": 160500.0,
+    "rialzoMinimo": 2000.0,
+    "disponibilita": [
+        "NON_SPECIFICATA"
+    ],
+    "descLotto": "Appartamento posto al piano secondo, (3°f.t.), della superficie commerciale di 98,00 mq; composto da ingresso, soggiorno, due camere, cucina, bagno, ripostiglio due balconi;- cantina al piano interrato.",
+    "tribunale": "Tribunale di TORINO",
+    "codiceTribunale": "0012720095",
+    "idLotto": 2409876,
+    "numElementiPagina": 0,
+    "numPagina": 0,
+    "codTipoVendita": "SENIN",
+    "descTipoVendita": "Senza Incanto",
+    "oraVendita": "14:00",
+    "impoOffertaMinima": 160500,
+    "impoOffertaAumento": 2000,
+    "impoBaseAsta": 214000,
+    "codModVendita": "VENDAS",
+    "descModVendita": "Asincrona Telematica",
+    "dataTermPresOff": "18/05/2026",
+    "oraTermPresOff": "12:30",
+    "dataDiPubblicazione": "19/03/2026",
+    "siti": [
+        {
+            "idSito": 4,
+            "link": "https://www.astegiudiziarie.it",
+            "urlInserizione": "https://www.astegiudiziarie.it/vendita-asta-appartamento-torino-via-amedeo-peyron-44-10143-torino-to-italia-l2309492-p1299748",
+            "codiSito": "SIP0004",
+            "flagTipoSito": "P",
+            "dataPrimoAck": "2026-03-30T13:08:22",
+            "codiUfficio": "0012720095",
+            "nomeUfficio": "Tribunale di TORINO",
+            "urlWsdlPubblicita": "https://servicepvp.astegiudiziarie.it/Siti.svc?wsdl",
+            "urlRicerca": "https://www.astegiudiziarie.it/pvp/${idInserzione}",
+            "nomeSito": "www.astegiudiziarie.it - il primo portale di pubblicità giudiziaria per visibilità, efficacia e autorizzazione ministeriale (iscritto al n. 1 - PDG 21/07/2009)"
+        },
+        {
+            "idSito": 46,
+            "link": "https://www.astalegale.net",
+            "urlInserizione": "https://www.astalegale.net/Aste/Dettaglio/B2400004",
+            "codiSito": "SIP0046",
+            "flagTipoSito": "P",
+            "dataPrimoAck": "2026-03-19T11:02:43",
+            "codiUfficio": "0012720095",
+            "nomeUfficio": "Tribunale di TORINO",
+            "urlWsdlPubblicita": "https://pvp.astalegale.net/astalegale.svc?wsdl",
+            "urlRicerca": "https://www.astalegale.net/Inserzioni/Search/${idInserzione}",
+            "nomeSito": "www.astalegale.net - Il portale autorizzato dal Ministero della Giustizia dedicato alle aste giudiziarie"
+        },
+        {
+            "idSito": 62,
+            "link": "http://www.astetelematiche.it",
+            "urlInserizione": "https://www.astetelematiche.it/vendita-asta-telematica-appartamento-torino-via-amedeo-peyron-44-10143-torino-to-italia-scheda=377955-2309492",
+            "codiSito": "1",
+            "flagTipoSito": "V",
+            "dataPrimoAck": "2026-04-01T10:10:57",
+            "codiUfficio": "0012720095",
+            "nomeUfficio": "Tribunale di TORINO",
+            "urlWsdlOfferta": "https://wsm.astetelematiche.it/service/offertatelematica.svc?wsd",
+            "urlWsdlPubblicita": "https://wsm.astetelematiche.it/siti.svc?wsdl",
+            "nomeSito": "www.astetelematiche.it - Il portale di Aste Giudiziarie Inlinea S.p.A. dedicato alle aste telematiche di beni mobili ed immobili (n. 1 del registro dei gestori delle vendite telematiche)"
+        }
+    ],
+    "altriSiti": [
+        {
+            "idSito": 2611849,
+            "urlSito": "https://www.tribunale.torino.it"
+        }
+    ],
+    "beni": [
+        {
+            "descrizione": "Appartamento posto al piano secondo, (3°f.t.), della superficie commerciale di 98,00 mq; composto da ingresso, soggiorno, due camere, cucina, bagno, ripostiglio due balconi;- cantina al piano interrato.",
+            "idBene": 3109601,
+            "codTipoLotto": "IMMOBILI",
+            "descTipoLotto": "Immobili",
+            "codTipoCategLotto": "IMMOBILE_RESIDENZIALE",
+            "descTipoCategLotto": "Immobile Residenziale",
+            "codTipologiaBene": "ABITAZIONE_TIPO_ECO",
+            "descTipologiaBene": "Abitazione Di Tipo Economico",
+            "codiceTipoDispBene": "OCCUP",
+            "disponibilita": "OCCUP",
+            "disponibilitaDesc": "Alla data del sopralluogo l'immobile risulta occupato dal debitore",
+            "indirizzo": {
+                "via": "Via Amedeo Peyron, 44, 10143 Torino TO, Italia",
+                "cap": "10143",
+                "coordinate": {
+                    "latitudine": 45.07983249999999,
+                    "longitudine": 7.659367499999999
+                },
+                "codNazione": "ITA",
+                "codRegione": "13",
+                "codProvincia": "TO",
+                "codComune": "1272",
+                "idIndirizzo": 7229602,
+                "descComune": "Torino",
+                "descProvincia": "Torino",
+                "descRegione": "Piemonte",
+                "descNazione": "Italia"
+            },
+            "datiCatastali": [
+                {
+                    "textFoglio": "1176",
+                    "textParticella": "419",
+                    "textSubalterno": "6"
+                }
+            ],
+            "luogoRitiroUgualeIndirizzo": false
+        }
+    ],
+    "soggetti": [
+        {
+            "idSoggetto": 5388460,
+            "ruolo": "DELEGATO",
+            "nome": "Francesco",
+            "cognome": "Civran",
+            "soggOpVendita": true,
+            "soggVisitaBene": false,
+            "cf": "CVRFNC74R23L219H",
+            "tipoSoggetto": 539
+        },
+        {
+            "idSoggetto": 5388425,
+            "ruolo": "CUSTODE",
+            "nome": "Francesco",
+            "cognome": "Civran",
+            "telefono": "01119826127",
+            "email": "fra.mor.servizi@gmail.com",
+            "soggOpVendita": false,
+            "soggVisitaBene": true,
+            "cf": "CVRFNC74R23L219H",
+            "tipoSoggetto": 537
+        }
+    ],
+    "allegati": [
+        {
+            "idAllegato": 12157722,
+            "nomeFile": "Perizia_Privacy.pdf",
+            "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4547267/Perizia_Privacy.pdf?versionId=c7e5c0ad-9bcc-47c7-9801-7fae2f4fe9ac",
+            "dimensioneAllegato": 1611596,
+            "codiceTipoAllegato": "PERIZ",
+            "inserimentoLotto": false
+        },
+        {
+            "idAllegato": 12157679,
+            "nomeFile": "I avviso 559_2025_ SITI.pdf",
+            "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4547267/I%20avviso%20559_2025_%20SITI.pdf?versionId=062c5b47-ec28-4056-9e0e-2cd567a32232",
+            "dimensioneAllegato": 3468440,
+            "codiceTipoAllegato": "AVEND",
+            "inserimentoLotto": false
+        },
+        {
+            "idAllegato": 12157704,
+            "nomeFile": "delega privacy.pdf",
+            "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4547267/delega%20privacy.pdf?versionId=a759fa3f-1abb-4309-a21d-735860e49f62",
+            "dimensioneAllegato": 148339,
+            "codiceTipoAllegato": "ORDIN",
+            "inserimentoLotto": false
+        }
+    ],
+    "flgEsenzionePagamentoSN": false,
+    "flgSpesaPrenDebitoSN": false,
+    "flgSpesaPrenDebito48SN": false,
+    "flgContrNonDovutoSN": false,
+    "flgStatoAnnuncio": "P",
+    "codFiscaleCustode": "CVRFNC74R23L219H",
+    "dataCreazioneAnnuncio": "17/03/2026",
+    "flagEliminaIndirizzo": false,
+    "flagEliminaIndirizzoVendita": false,
+    "flagStatoRicevuta": "S",
+    "flgContributoPagato": false,
+    "lottoEsistente": false,
+    "duplicato": false,
+    "datiDeposito": {
+        "depoCauzionale": "almeno il 10% del prezzo offerto ",
+        "depoCauzionaleDe": null,
+        "dataTermineDeposito": null,
+        "modalitaDeposito": null,
+        "modalitaDepositoDE": null,
+        "depositoContoSpese": null,
+        "depositoContoSpeseDe": null
+    }
+}
