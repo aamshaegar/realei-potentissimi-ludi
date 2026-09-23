@@ -3,7 +3,6 @@ import "./globals.css";
 
 import { ThemeProvider } from "next-themes";
 import NextTopLoader from "nextjs-toploader";
-import FadeComponent from "@/components/FadeComponent";
 import NavBar from "@/components/NavBar";
 import ThemeToggle from "@/components/ThemeToggle";
 
@@ -17,25 +16,24 @@ const geistMono = Geist_Mono({
 	subsets: ["latin"],
 });
 
-export const metadata = {
-	title: "Realei – Notte dei Ricercatori",
-	description:
-		"Scopri eventi, attività e iniziative della Notte dei Ricercatori.",
-	applicationName: "realei-notte-ricercatori",
-	manifest: "/manifest.webmanifest",
-	themeColor: "#000000",
-	appleWebApp: {
-		capable: true,
-		statusBarStyle: "default",
-		title: "Realei – Notte dei Ricercatori",
-	},
-};
+// export const metadata = {
+// 	title: "Realei – Notte dei Ricercatori",
+// 	description: "Scopri eventi, attività e iniziative della Notte dei Ricercatori.",
+// 	applicationName: "realei-notte-ricercatori",
+// 	manifest: "/manifest.webmanifest",
+// 	themeColor: "#000000",
+// 	appleWebApp: {
+// 		capable: true,
+// 		statusBarStyle: "default",
+// 		title: "Realei – Notte dei Ricercatori",
+// 	},
+// };
 
-export const viewport = {
-	width: "device-width",
-	initialScale: 1,
-	viewportFit: "cover",
-};
+// export const viewport = {
+// 	width: "device-width",
+// 	initialScale: 1,
+// 	viewportFit: "cover",
+// };
 
 export default function RootLayout({ children }) {
 	return (

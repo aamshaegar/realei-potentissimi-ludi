@@ -1,0 +1,186 @@
+{
+    "id": 4594611,
+    "idProcedura": 1010130,
+    "numeAnnoRg": 2025,
+    "numeRG": "99",
+    "faqs": {
+        "Dettagli sull'Immobile": [
+            {
+                "domanda": "Qual è la descrizione e la tipologia di immobile in vendita?",
+                "risposta": "L'immobile in vendita è un appartamento al piano terreno composto da soggiorno con angolo cottura, due camere, disimpegno, ripostiglio e bagno, oltre a un locale cantina al piano interrato. È incluso il diritto ad uso esclusivo delle aree verdi esterne tinteggiate in giallo.",
+                "citazione": "Scheda tecnica"
+            },
+            {
+                "domanda": "Dove si trova l'immobile e quali sono i suoi dati catastali?",
+                "risposta": "L'immobile si trova in Via Angelo Brofferio, 12, 10042 Nichelino (TO), Italia. I dati catastali sono: Foglio 17, Particella 998, subalterno 65, categoria A/2, classe 2, vani 4,5, superficie catastale totale 78 m², rendita catastale Euro 592,63.",
+                "citazione": "Scheda tecnica"
+            },
+            {
+                "domanda": "Qual è lo stato di occupazione dell'immobile?",
+                "risposta": "L'immobile risulta occupato dal debitore e dal suo nucleo familiare.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "In quale stato di manutenzione si trova l'immobile?",
+                "risposta": "L'immobile presenta marcati fenomeni di condensazione superficiale con formazione di muffe, localizzati prevalentemente in corrispondenza dei \"ponti termici\". Sono necessari interventi di risanamento professionale dei locali e la rimozione di un gazebo installato in difformità dal Regolamento di Condominio.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "Ci sono pertinenze? (es. cantina, posto auto, etc.)",
+                "risposta": "Sì, è incluso un locale cantina al piano interrato e il diritto ad uso esclusivo delle aree verdi esterne tinteggiate in giallo.",
+                "citazione": "Scheda tecnica"
+            },
+            {
+                "domanda": "Qual è la situazione urbanistica e la conformità edilizia dell'immobile?",
+                "risposta": "L'immobile è conforme dal punto di vista urbanistico ed edilizio. Non si rilevano irregolarità edilizie. La convenzione edilizia stipulata con il Comune di Nichelino prevede obblighi di cessione gratuita di aree per standard pubblici e viabilità, nonché l'esecuzione diretta delle opere di urbanizzazione.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "La planimetria corrisponde allo stato attuale dell’immobile?",
+                "risposta": "Sì, la planimetria catastale corrisponde all'attuale stato di fatto dei luoghi, come riscontrato in sede di ispezione peritale.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "Quanto è grande l'immobile (superficie )? Qual è la superficie commerciale e quella calpestabile?",
+                "risposta": "La superficie catastale totale è di 78 m², mentre la superficie commerciale è di 75,80 m². La superficie calpestabile non è specificata nei documenti.",
+                "citazione": "Scheda tecnica"
+            },
+            {
+                "domanda": "È necessario presentare domanda di sanatoria per difformità urbanistiche?",
+                "risposta": "No, non è necessario presentare domanda di sanatoria per difformità urbanistiche, in quanto non si rilevano irregolarità edilizie.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "La perizia segnala rischi importanti?",
+                "risposta": "Sì, la perizia segnala marcati fenomeni di condensazione superficiale con formazione di muffe e la presenza di un gazebo installato in difformità dal Regolamento di Condominio.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "Ci sono vincoli di qualche tipo (storici, paesaggistici, etc.)?",
+                "risposta": "Non ci sono vincoli storici o paesaggistici. Tuttavia, l'immobile è soggetto a una convenzione edilizia stipulata con il Comune di Nichelino, che prevede obblighi di cessione gratuita di aree per standard pubblici e viabilità, nonché l'esecuzione diretta delle opere di urbanizzazione.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            }
+        ],
+        "Modalità di Vendita e Offerte": [
+            {
+                "domanda": "Qual è l'offerta minima accettata?",
+                "risposta": "L'offerta minima accettata è di € 81.000,00.",
+                "citazione": "Scheda tecnica"
+            },
+            {
+                "domanda": "Come devono essere presentate le offerte?",
+                "risposta": "Le offerte devono essere presentate esclusivamente in via telematica, mediante modulo web ministeriale \"Offerta Telematica\" accessibile tramite il Portale Vendite Pubbliche o il portale del gestore della vendita. L'offerta deve essere inviata all'indirizzo di posta elettronica certificata del Ministero della Giustizia.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Chi è ammesso a presentare offerte?",
+                "risposta": "Chiunque, eccetto il debitore e fatti salvi divieti ex lege, può partecipare alla vendita.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Quali documenti e informazioni devono essere inclusi nell'offerta telematica?",
+                "risposta": "L'offerta deve contenere i dati identificativi dell'offerente, l'ufficio giudiziario, l'anno e il numero di ruolo generale della procedura, il numero o altro dato identificativo del lotto, la descrizione del bene, l'indicazione del referente della procedura, la data e l'ora fissata per l'inizio delle operazioni di vendita, il prezzo offerto, il termine per il relativo pagamento, l'importo versato a titolo di cauzione, la data e l'orario del bonifico effettuato per il versamento della cauzione, il codice IBAN del conto sul quale è stata addebitata la somma oggetto del bonifico, l'indirizzo della casella di posta elettronica certificata utilizzata per trasmettere l'offerta e l'eventuale recapito di telefonia mobile.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Le offerte sono irrevocabili?",
+                "risposta": "Sì, le offerte sono irrevocabili per 120 giorni dal deposito.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Cosa succede in caso di più offerte o di offerta unica?",
+                "risposta": "In caso di unica offerta valida, si procederà ai sensi dell'art. 572 commi 2 e 3 c.p.c. In caso di pluralità di offerte valide, si procederà con la gara telematica asincrona tra gli offerenti partendo, come prezzo base di gara, dal valore dell'offerta dichiarata migliore.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Come si può visitare l'immobile?",
+                "risposta": "Le visite dell'immobile possono essere effettuate nei giorni non festivi dal lunedì al venerdì dalle ore 9.00 alle ore 19.00 e il sabato dalle ore 9.00 alle ore 13.00, previo accordo con il custode. La richiesta di visita può essere inoltrata attraverso il portale vendite pubbliche (PVP) accedendo alla funzione \"PRENOTA VISITA IMMOBILE\".",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            }
+        ],
+        "Pagamento e Aspetti Finanziari": [
+            {
+                "domanda": "Come viene determinato il valore di mercato del fabbricato?",
+                "risposta": "Il valore di mercato del fabbricato è stato determinato mediante il procedimento sintetico-comparativo, confrontando il bene oggetto della stima con un insieme di beni aventi caratteristiche analoghe e medesimo orizzonte temporale alla data di riferimento. Il valore di mercato è stato adeguato con coefficienti correttivi per tenere conto delle peculiari condizioni dell'immobile, come i fenomeni di condensazione e muffa e l'assenza di garanzia per vizi.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "Quanto è la cauzione e come va versata?",
+                "risposta": "La cauzione è pari ad almeno il 10% del prezzo offerto e deve essere versata tramite bonifico su conto corrente bancario intestato alla procedura, presso Banca del Piemonte S.p.A., Filiale di Rivoli. La cauzione si riterrà versata solamente se l'importo risulterà effettivamente accreditato sul conto corrente intestato alla procedura entro il giorno di presentazione delle offerte.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Qual è il termine per il pagamento del saldo prezzo e degli oneri accessori?",
+                "risposta": "Il saldo prezzo deve essere versato in unica soluzione entro il termine indicato nell'offerta, non superiore a 120 giorni a decorrere dall'aggiudicazione. L'aggiudicatario dovrà inoltre versare l'importo presumibile delle spese e dei compensi necessari per il trasferimento dell'immobile aggiudicato.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Cosa succede se l'immobile è gravato da mutuo fondiario?",
+                "risposta": "In caso di mutuo fondiario, il creditore dovrà depositare presso lo studio del delegato, unitamente al piano di ammortamento del mutuo fondiario, un documento nel quale saranno indicati l'ammontare del suo credito per rate scadute, accessori e spese, nonché l'ammontare dell'intero suo credito per capitale, accessori e spese. L'aggiudicatario che intenda avvalersi della facoltà di subentro nel mutuo dovrà pagare, entro 15 giorni dall'aggiudicazione, all'Istituto mutuante le rate scadute, gli accessori e le spese.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Cosa comporta il mancato pagamento del saldo prezzo?",
+                "risposta": "In caso di mancato, insufficiente o tardivo versamento del residuo prezzo, verrà dichiarata la decadenza dall'aggiudicazione e confiscata la cauzione, salvi gli ulteriori provvedimenti di cui all'art. 587 c.p.c.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "È richiesta una dichiarazione antiriciclaggio?",
+                "risposta": "Sì, ai sensi degli artt. 585-587 c.p.c., nel termine fissato per il versamento del prezzo a pena di decadenza, l'aggiudicatario deve far pervenire presso lo studio del professionista delegato le informazioni prescritte dall'art. 22 del decreto legislativo 21 novembre 2007 n. 231 (antiriciclaggio).",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            }
+        ],
+        "Aspetti Legali e Amministrativi": [
+            {
+                "domanda": "L'immobile è venduto con o senza oneri e pesi?",
+                "risposta": "L'immobile è venduto a corpo e non a misura, nello stato di fatto e di diritto in cui si trova, con tutti i diritti, ragioni, azioni, accessori, dipendenze, pertinenze, servitù attive e passive inerenti e come lo stesso è stato finora goduto e posseduto dall'odierno debitore esecutato.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Le iscrizioni ipotecarie e i pignoramenti saranno cancellati?",
+                "risposta": "Sì, le iscrizioni ipotecarie e i pignoramenti saranno cancellati a cura della procedura, ma con oneri a carico dell'aggiudicatario.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "L'immobile sarà liberato prima del trasferimento di proprietà?",
+                "risposta": "Il giudice dell'esecuzione ordinerà la liberazione dell'immobile con provvedimento emesso contestualmente al decreto di trasferimento. Il custode provvederà alla liberazione dell'immobile secondo le modalità e i tempi di cui all'art. 560 c.p.c.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "La procedura può essere sospesa?",
+                "risposta": "Sì, la procedura può essere sospesa su istanza del creditore procedente e dei creditori intervenuti muniti di titolo esecutivo, in caso di trattative col debitore, per il termine massimo di 24 mesi, una sola volta e non più tardi di 20 giorni prima della scadenza del termine per il deposito delle offerte.",
+                "citazione": "Documento PDF generico: NOMINA CUSTODE (1).pdf"
+            },
+            {
+                "domanda": "Chi posso contattare per chiarimenti o ulteriori informazioni?",
+                "risposta": "Per chiarimenti o ulteriori informazioni, è possibile contattare il gestore della vendita, Gruppo Edicom S.p.A., tramite email o call center, ai numeri e all'indirizzo indicati sul Portale del gestore della vendita. È inoltre possibile ricevere supporto tecnico e informativo presso il Punto Informativo Vendite Giudiziarie del Tribunale di Torino.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Il titolo di proprietà trasferito è pieno, parziale o ci sono limitazioni?",
+                "risposta": "Il titolo di proprietà trasferito è pieno, senza limitazioni.",
+                "citazione": "Avviso di vendita: AVVISO_di_VENDITA.pdf"
+            },
+            {
+                "domanda": "Ci sono diritti di terzi sull’immobile (es. usufrutto, comodato d’uso, etc.)?",
+                "risposta": "Non ci sono diritti di terzi sull'immobile, come usufrutto o comodato d'uso.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "Che tipo di ipoteche ci sono e per cosa sono? (dante causa)",
+                "risposta": "L'immobile è gravato da un'ipoteca volontaria iscritta in data 06/10/2014 a favore della Cassa di Risparmio di Asti S.p.A. per un importo complessivo di € 168.000,00, di cui € 84.000,00 per capitale. È inoltre gravato da un pignoramento immobiliare trascritto in data 04/03/2025 a favore di Luzzatti Pop Npls2023 Srl.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "A quanto ammontano i debiti condominiali da pagare? A quanto ammontano in totale i debiti a carico dell'aggiudicatario?",
+                "risposta": "I debiti condominiali ammontano a € 2.210,21 per l'anno 2023, € 761,44 per l'anno 2024 e € 695,03 per l'anno 2025. Inoltre, ci sono debiti per spese di manutenzione straordinaria già deliberate pari a € 848,45 per l'anno 2024, € 168,18 per l'anno 2025 e € 140,10 per l'anno 2026. In totale, i debiti a carico dell'aggiudicatario ammontano a circa € 4.823,31.",
+                "citazione": "Perizia tecnica: relazione _ proc n 99-2025 rge _ priva di dati sensibili.pdf"
+            },
+            {
+                "domanda": "La documentazione è completa?",
+                "risposta": "Sì, la documentazione è completa e include la scheda tecnica, l'avviso di vendita, la perizia tecnica, la nomina del custode e la delega scansionata.",
+                "citazione": "Scheda tecnica"
+            }
+        ]
+    }
+}

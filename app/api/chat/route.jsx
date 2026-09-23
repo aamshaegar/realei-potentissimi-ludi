@@ -74,7 +74,7 @@ ${JSON.stringify(metadata)}
         console.error("LM STUDIO ERROR:", error);
 
         return Response.json(
-            { error: "Errore durante la comunicazione con LM Studio." },
+            { error: "Errore durante la comunicazione con il modello." },
             { status: 500 }
         );
     }

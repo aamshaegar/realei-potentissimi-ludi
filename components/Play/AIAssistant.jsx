@@ -134,7 +134,7 @@ function AIAssistant({ llmPayload, onAskAI }) {
                             animate={{ y: 0, opacity: 1 }}
                             exit={{ y: "100%", opacity: 0.8 }}
                             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                            className="fixed inset-x-0 bottom-0 z-[100] mx-auto w-full max-w-2xl overflow-hidden rounded-t-[2rem] border border-slate-200 bg-white shadow-2xl"
+                            className="fixed inset-x-0 bottom-0 z-[100] mx-auto w-full max-w-2xl 2xl:max-w-4xl overflow-hidden rounded-t-[2rem] border border-slate-200 bg-white shadow-2xl"
                         >
                             {/* HANDLE */}
                             <div className="flex justify-center pt-3">

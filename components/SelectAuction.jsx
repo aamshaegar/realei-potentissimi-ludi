@@ -57,7 +57,7 @@ const SelectAuction = ({ selectedAuction, onSelect }) => {
                             <p className="mt-1 text-sm text-text-secondary">Quale asta vuoi analizzare?</p>
                         </div>
 
-                        <div className="space-y-1.5">
+                        <div className="space-y-2 mt-4">
                             {AUCTIONS.map((auction, index) => {
                                 const selected = selectedAuction?.id === auction.id;
 
@@ -66,28 +66,30 @@ const SelectAuction = ({ selectedAuction, onSelect }) => {
                                         key={auction.id}
                                         type="button"
                                         onClick={() => onSelect(auction)}
-                                        className={`group flex w-full items-center gap-4 rounded-lg border p-5 text-left transition-all duration-200 ${selected ? "border-primary bg-primary/10" : "border-border bg-background hover:border-primary/40 hover:bg-primary/5"}`}
+                                        className={`group relative flex w-full items-center gap-5 rounded-lg border p-5 py-9 text-left transition-all duration-200 ${selected ? "border-primary bg-primary/10" : "border-border bg-background hover:border-primary/40 hover:bg-primary/5"}`}
                                     >
-                                        <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border ${selected ? "border-primary bg-primary text-primary-foreground" : "border-border text-muted group-hover:border-primary/50"}`}>
+                                        <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 ${selected ? "border-primary bg-primary text-primary-foreground" : "border-border text-muted group-hover:border-primary/50"}`}>
                                             {selected ? (
                                                 <Check className="h-3 w-3" />
                                             ) : (
-                                                <span className="font-mono text-[9px]">{String(index + 1).padStart(2, "0")}</span>
+                                                <span className="font-mono text-base">{String(index + 1).padStart(2, "0")}</span>
                                             )}
                                         </span>
 
                                         <div className="min-w-0 flex-1">
-                                            <p className="truncate text-sm font-medium text-text-primary">{auction.title}</p>
+                                            <p className=" text-sm font-medium text-text-primary">{auction.title}</p>
 
-                                            <div className="mt-0.5 flex items-center gap-1.5 font-mono text-[9px] uppercase tracking-wider text-muted">
-                                                <MapPin className="h-2.5 w-2.5 shrink-0 text-primary" />
+                                            <div className="mt-2 flex items-center gap-2 font-mono text-[10px] uppercase tracking-wider text-muted">
+                                                <MapPin className="h-4 w-4 shrink-0 text-primary" />
                                                 <span className="truncate">{auction.location}</span>
                                             </div>
                                         </div>
 
-                                        <span className="hidden shrink-0 rounded-md border border-border-subtle px-2 py-1 font-mono text-[8px] uppercase tracking-wider text-muted sm:block">
-                                            {auction.type}
-                                        </span>
+                                        <div className="flex justify-end bottom-4 right-4 absolute">
+                                            <span className="hidden shrink-0 rounded-md border border-border-subtle px-2 py-1 font-mono text-[9px] uppercase tracking-wider text-muted sm:block">
+                                                {auction.type}
+                                            </span>
+                                        </div>
                                     </button>
                                 );
                             })}
