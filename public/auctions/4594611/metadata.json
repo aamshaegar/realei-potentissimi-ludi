@@ -5,18 +5,6 @@
     "categoriaBene": [
         "ABITAZIONE_TIPO_CIV"
     ],
-    "indirizzo": {
-        "via": "Via Angelo Brofferio, 12, 10042 Nichelino TO, Italia",
-        "cap": "1164",
-        "citta": "Nichelino",
-        "provincia": "Torino",
-        "coordinate": {
-            "latitudine": 44.991436,
-            "longitudine": 7.640987
-        },
-        "descRegione": "Piemonte",
-        "descNazione": "Italia"
-    },
     "numeroLotto": "LOTTO UNICO",
     "procedura": {
         "idProcedura": 1010130,
@@ -67,64 +55,6 @@
             "note": "SI SEGNALA CHE LA DATA DELLA VENDITA E' IL 28 SETTEMBRE 2026 ALLE ORE 15,00 ANZICHE', COME INDICATO, ALLE ORE 12,30 "
         }
     ],
-    "siti": [
-        {
-            "idSito": 9,
-            "link": "https://www.asteannunci.it",
-            "urlInserizione": "https://www.asteannunci.it/aste/pvp/4594611",
-            "codiSito": "SIP0009",
-            "flagTipoSito": "P",
-            "dataPrimoAck": "2026-06-15T11:55:48",
-            "codiUfficio": "0012720095",
-            "nomeUfficio": "Tribunale di TORINO",
-            "urlWsdlPubblicita": "https://service.asteannunci.it/pubblicita?wsdl",
-            "urlRicerca": "https://www.asteannunci.it/aste/cerca?id_asta=${idInserzione}",
-            "nomeSito": "www.asteannunci.it - Aste annunci pubblica gli avvisi delle aste giudiziarie, aste immobiliari e aste fallimentari dei tribunali. Ricerca le aste giudiziarie della tua città"
-        },
-        {
-            "idSito": 70,
-            "link": "https://www.garavirtuale.it",
-            "urlInserizione": "https://www.garavirtuale.it/dettagli_asta.php?aste_id=558636",
-            "codiSito": "3",
-            "flagTipoSito": "V",
-            "dataPrimoAck": "2026-06-15T12:00:58",
-            "codiUfficio": "0012720095",
-            "nomeUfficio": "Tribunale di TORINO",
-            "urlWsdlOfferta": "https://service.garavirtuale.it/vendita?wsdl",
-            "urlWsdlPubblicita": "https://service.garavirtuale.it/pubblicita?wsdl",
-            "nomeSito": "www.garavirtuale.it - Gara Virtuale è il portale internazionale delle aste telematiche, vendite giudiziarie immobiliari e mobiliari online"
-        },
-        {
-            "idSito": 46,
-            "link": "https://www.astalegale.net",
-            "urlInserizione": "https://www.astalegale.net/Aste/Dettaglio/B2423137",
-            "codiSito": "SIP0046",
-            "flagTipoSito": "P",
-            "dataPrimoAck": "2026-06-15T14:51:15",
-            "codiUfficio": "0012720095",
-            "nomeUfficio": "Tribunale di TORINO",
-            "urlWsdlPubblicita": "https://pvp.astalegale.net/astalegale.svc?wsdl",
-            "urlRicerca": "https://www.astalegale.net/Inserzioni/search/${IdInserzione}",
-            "nomeSito": "www.astalegale.net - Il portale autorizzato dal Ministero della Giustizia dedicato alle aste giudiziarie"
-        },
-        {
-            "idSito": 4,
-            "link": "https://www.astegiudiziarie.it",
-            "codiSito": "SIP0004",
-            "flagTipoSito": "P",
-            "codiUfficio": "0012720095",
-            "nomeUfficio": "Tribunale di TORINO",
-            "urlWsdlPubblicita": "https://servicepvp.astegiudiziarie.it/Siti.svc?wsdl",
-            "urlRicerca": "https://www.astegiudiziarie.it/pvp/${idInserzione}",
-            "nomeSito": "www.astegiudiziarie.it - il primo portale di pubblicità giudiziaria per visibilità, efficacia e autorizzazione ministeriale (iscritto al n. 1 - PDG 21/07/2009)"
-        }
-    ],
-    "altriSiti": [
-        {
-            "idSito": 2658677,
-            "urlSito": "https://www.tribunale.torino.it"
-        }
-    ],
     "beni": [
         {
             "descrizione": "Al piano terreno appartamento composto di soggiorno con angolo cottura, due camere, disimpegno, ripostiglio e bagno; al piano interrato locale cantina con diritto ad uso esclusivo delle aree verdi esterne tinteggiate in giallo",
@@ -156,120 +86,6 @@
                     "textFoglio": "17",
                     "textParticella": "998",
                     "textSubalterno": "65"
-                }
-            ],
-            "allegati": [
-                {
-                    "idAllegato": 12382878,
-                    "nomeFile": "accesso esterno.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/accesso esterno.JPG?versionId=605a46f2-f874-423a-9a33-8e02c55c65a8",
-                    "dimensioneAllegato": 4576662,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382879,
-                    "nomeFile": "BAGBO.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/BAGBO.JPG?versionId=dfa71f6d-e68e-4cad-bfe8-b3b1150e1336",
-                    "dimensioneAllegato": 3913377,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382880,
-                    "nomeFile": "BAGNO1.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/BAGNO1.JPG?versionId=26d33625-04c6-44a7-a9f0-98930b32569c",
-                    "dimensioneAllegato": 4008932,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382883,
-                    "nomeFile": "CAMERA MATRIMONIALE.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/CAMERA MATRIMONIALE.JPG?versionId=27facfd1-ebe3-4534-aff1-b2ce55d3bc30",
-                    "dimensioneAllegato": 2833404,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382884,
-                    "nomeFile": "cameretta.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/cameretta.JPG?versionId=199aadf4-fa2d-437c-af5e-1824f8f74f6a",
-                    "dimensioneAllegato": 3970462,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382885,
-                    "nomeFile": "cucina.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/cucina.JPG?versionId=03776ffb-600b-468d-9169-ee90a360d9f6",
-                    "dimensioneAllegato": 3042573,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382886,
-                    "nomeFile": "esterno appartamento.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/esterno appartamento.JPG?versionId=f1e6df36-c68e-40ed-8ac6-fe5d531bb4ac",
-                    "dimensioneAllegato": 4177282,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382887,
-                    "nomeFile": "esterno fabbricato 1.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/esterno fabbricato 1.JPG?versionId=f4489fe6-114d-434f-9b9f-b0f2f176617a",
-                    "dimensioneAllegato": 4306468,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382911,
-                    "nomeFile": "particolare soffitto.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/particolare soffitto.JPG?versionId=9652e4f1-1be2-4225-87f1-c44714a65d3e",
-                    "dimensioneAllegato": 4330184,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382912,
-                    "nomeFile": "PATIO.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/PATIO.JPG?versionId=5426819e-ab08-4442-a550-142da43e2c98",
-                    "dimensioneAllegato": 4177282,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382913,
-                    "nomeFile": "portoncino accesso.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/portoncino accesso.JPG?versionId=0e0b071a-89a1-4597-94e0-ad7e662f2504",
-                    "dimensioneAllegato": 3684204,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382914,
-                    "nomeFile": "RIPOSTIGLIO.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/RIPOSTIGLIO.JPG?versionId=06b29527-427d-4841-8169-b6adb819dccf",
-                    "dimensioneAllegato": 3877123,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382916,
-                    "nomeFile": "VERANDA ESTERNA.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/VERANDA ESTERNA.JPG?versionId=494cfb2e-609e-4a8f-9039-6d6a23ae60ae",
-                    "dimensioneAllegato": 4569048,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
-                },
-                {
-                    "idAllegato": 12382917,
-                    "nomeFile": "ZONA SALOTTO.JPG",
-                    "linkAllegato": "/immagini-beni/4594611/3161305/ZONA SALOTTO.JPG?versionId=a1616135-645c-4e57-a813-2694711a706b",
-                    "dimensioneAllegato": 3390874,
-                    "descrizione": "IMMAGINE BENE",
-                    "inserimentoLotto": false
                 }
             ],
             "codiceTipoDispBene": "OCCUP",
@@ -339,24 +155,6 @@
             "inserimentoLotto": false
         },
         {
-            "idAllegato": 12383154,
-            "nomeFile": "all. 15 _ planimetria catastale immobile.pdf",
-            "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4594611/all.%2015%20_%20planimetria%20catastale%20immobile.pdf?versionId=864debf7-a66b-461f-95f6-57afcac2b446",
-            "dimensioneAllegato": 286903,
-            "descrizione": "PLANIMETRIA CATASTALE ",
-            "codiceTipoAllegato": "ALTRO",
-            "inserimentoLotto": false
-        },
-        {
-            "idAllegato": 12383046,
-            "nomeFile": "NOMINA CUSTODE (1).pdf",
-            "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4594611/NOMINA%20CUSTODE%20%281%29.pdf?versionId=de4b213e-5e57-4650-ac9f-3501c978d55e",
-            "dimensioneAllegato": 173356,
-            "descrizione": "NOMINA CUSTODE ",
-            "codiceTipoAllegato": "PROVV",
-            "inserimentoLotto": false
-        },
-        {
             "idAllegato": 12383045,
             "nomeFile": "DELEGA SCANSIONATA.pdf",
             "linkAllegato": "https://resource-pvp.giustizia.it/allegati/4594611/DELEGA%20SCANSIONATA.pdf?versionId=e29ca72c-9fbd-4718-a2e0-c20275263a50",
@@ -379,14 +177,5 @@
     "flgContributoPagato": false,
     "aiGenerated": false,
     "duplicato": false,
-    "lottoEsistente": false,
-    "datiDeposito": {
-        "depoCauzionale": null,
-        "depoCauzionaleDe": null,
-        "dataTermineDeposito": null,
-        "modalitaDeposito": null,
-        "modalitaDepositoDE": null,
-        "depositoContoSpese": null,
-        "depositoContoSpeseDe": null
-    }
+    "lottoEsistente": false
 }
