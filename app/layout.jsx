@@ -1,20 +1,20 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import "./globals.css";
 
-import { ThemeProvider } from "next-themes";
-import NextTopLoader from "nextjs-toploader";
-import NavBar from "@/components/NavBar";
-import ThemeToggle from "@/components/ThemeToggle";
+// import { ThemeProvider } from "next-themes";
+// import NextTopLoader from "nextjs-toploader";
+// import NavBar from "@/components/NavBar";
+// import ThemeToggle from "@/components/ThemeToggle";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
-	subsets: ["latin"],
-});
+// const geistSans = Geist({
+// 	variable: "--font-geist-sans",
+// 	subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
-	subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+// 	variable: "--font-geist-mono",
+// 	subsets: ["latin"],
+// });
 
 // export const metadata = {
 // 	title: "Realei – Notte dei Ricercatori",
@@ -34,20 +34,21 @@ const geistMono = Geist_Mono({
 // 	initialScale: 1,
 // 	viewportFit: "cover",
 // };
+import "./globals.css";
+
+import { ThemeProvider } from "next-themes";
+import NextTopLoader from "nextjs-toploader";
+import NavBar from "@/components/NavBar";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function RootLayout({ children }) {
 	return (
-		<html
-			lang="it"
-			suppressHydrationWarning
-			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-		>
-			<body className="min-h-full flex flex-col">
+		<html lang="it" suppressHydrationWarning>
+			<body className="min-h-full flex flex-col antialiased">
 				<ThemeProvider
 					attribute="class"
-					defaultTheme="system	"
+					defaultTheme="system"
 					enableSystem
-				// disableTransitionOnChange
 				>
 					<NextTopLoader
 						color="#000000"

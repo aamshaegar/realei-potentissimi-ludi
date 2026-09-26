@@ -1,0 +1,114 @@
+name: release
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    # Skip if this is a PR that will be merged
+    if: github.event_name != 'pull_request' || github.event.pull_request.merged != true
+    concurrency: release
+
+    permissions:
+      id-token: write
+      contents: write
+      packages: write
+
+    steps:
+      - name: Setup | Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup | Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.14.0'
+          cache: 'npm'
+
+      - name: Setup | Install Dependencies
+        run: npm install
+
+      - name: Debug | Print Environment Info
+        run: |
+          echo "=== Environment Information ==="
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Event: ${{ github.event_name }}"
+          echo "SHA: ${{ github.sha }}"
+          echo "============================"
+
+      - name: Debug | Show Git Tags
+        run: |
+          echo "=== Current Git Tags ==="
+          git tag -l
+          echo "======================"
+
+      - name: Debug | Show Git Log
+        run: |
+          echo "=== Recent Git Commits ==="
+          git log --oneline -n 5
+          echo "========================="
+
+      - name: Debug | Show Package Version
+        run: |
+          echo "=== Package Version ==="
+          cat package.json | grep version
+          echo "======================"
+
+      - name: Debug | Show Next Release Version
+        run: |
+          echo "=== Next Release Version ==="
+          # Get current version from package.json
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          echo "Current version: $CURRENT_VERSION"
+          
+          # Get latest release tag (excluding dev tags)
+          LATEST_TAG=$(git tag -l "v*" | grep -v "dev" | sort -V | tail -n 1)
+          echo "Latest release tag: $LATEST_TAG"
+          
+          # Extract version number from latest tag
+          if [[ $LATEST_TAG =~ v([0-9]+)\.([0-9]+)\.([0-9]+) ]]; then
+            MAJOR=${BASH_REMATCH[1]}
+            MINOR=${BASH_REMATCH[2]}
+            PATCH=${BASH_REMATCH[3]}
+            echo "Current version components:"
+            echo "  Major: $MAJOR"
+            echo "  Minor: $MINOR"
+            echo "  Patch: $PATCH"
+            
+            # Get commit messages since last tag
+            COMMITS=$(git log $LATEST_TAG..HEAD --pretty=format:"%s")
+            
+            # Check for breaking changes
+            if echo "$COMMITS" | grep -q "BREAKING CHANGE\|!"; then
+              echo "Breaking changes detected - will increment major version"
+              echo "Next release version: v$((MAJOR + 1)).0.0"
+            # Check for features
+            elif echo "$COMMITS" | grep -q "^feat"; then
+              echo "New features detected - will increment minor version"
+              echo "Next release version: v${MAJOR}.$((MINOR + 1)).0"
+            # Default to patch
+            else
+              echo "No breaking changes or features - will increment patch version"
+              echo "Next release version: v${MAJOR}.${MINOR}.$((PATCH + 1))"
+            fi
+          else
+            echo "No release tag found, will start from v${CURRENT_VERSION}"
+          fi
+          echo "============================"
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_JOBS }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GIT_AUTHOR_NAME: github-actions
+          GIT_AUTHOR_EMAIL: github-actions@github.com
+          GIT_COMMITTER_NAME: github-actions
+          GIT_COMMITTER_EMAIL: github-actions@github.com
+        run: npx semantic-release
